@@ -4,7 +4,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setup(
-  name = 'ImageSeeker',
+  name = 'ImageClassifier',
   packages = find_packages(),
   include_package_data=True,
   version = '0.7',
@@ -12,10 +12,10 @@ setup(
   description = 'Its an auto image classification library',
   long_description=long_description,
   long_description_content_type="text/markdown",
-  url="https://github.com/entbappy/ImageSeeker-Package",
-  author = 'Bappy Ahmed',
-  author_email = 'entbappy73@gmail.com',
-  keywords = ['imageseeker'],
+  url="https://github.com/NaveenVinayakS/ImageClassification",
+  author = 'Naveen Vinayak S',
+  author_email = 'naveenvinayak.2195@gmail.com',
+  keywords = ['ImageClassifier'],
   install_requires=[
         'tensorflow==2.4.1',
         'scipy==1.6.3',
@@ -44,6 +44,6 @@ setup(
   ],
   entry_points={
         "console_scripts": [
-            "imgseeker = ImageSeeker.main:start_app",
+            "imgclassifier = ImageClassifier.main:start_app",
         ]},
 )
