@@ -1,44 +1,38 @@
 
-# ImageSeeker: An Image Classification Library
+# ImageClassifier: An Image Classification Library
 
-  
-![ImageSeeker Logo](https://raw.githubusercontent.com/entbappy/Branching-tutorial/master/ImageSeeker.png)
-
-    
-
-
-This repository hosts the development of the ImageSeeker library.
+This repository hosts the development of the ImageClassifier library.
 
   
 ## Authors
 
-- [Bappy Ahmed](https://www.linkedin.com/in/boktiarahmed73/)
+- [Naveen Vinayak S](https://www.linkedin.com/in/naveen-vinayak-s/)
 
-- Email: entbappy73@gmail.com
+- Email: naveenvinayak.2195@gmail.com
 
-- Github: https://github.com/entbappy/
+- Github: https://github.com/NaveenVinayakS
   
 ## 🚀 About Me
 I'm a Data Science learner. This library I have implemented just for learning purpose.
 
   
-## About ImageSeeker
+## About ImageClassifier
 
-ImageSeeker is a deep learning image classification library written in Python, running on top of the machine learning platform TensorFlow.Keras. It was developed with a focus on enabling fast experimentation of images classification. You can classify any image with any classification model in Keras appliaction without writing any lines of code.
+ImageClassifier is a deep learning image classification library written in Python, running on top of the machine learning platform TensorFlow.Keras. It was developed with a focus on enabling fast experimentation of images classification. You can classify any image with any classification model in Keras appliaction without writing any lines of code.
 
 
-ImageSeeker is:
+Imageclassifier is:
 
-- **Simple** -- ImageSeeker reduces developer time of writing too much code of any image classification problem so that they focus on the parts of the problem that really matter.
-- **Flexible** -- Keras adopts the principle of *progressive disclosure of complexity*: simple workflows should be quick and easy that’s why ImageSeeker is Flexible.
-- **Powerful** -- Keras provides industry-strength performance and scalability: so we can use ImageSeeker in the production
+- **Simple** -- ImageClassifier reduces developer time of writing too much code of any image classification problem so that they focus on the parts of the problem that really matter.
+- **Flexible** -- Keras adopts the principle of *progressive disclosure of complexity*: simple workflows should be quick and easy that’s why ImageClassifier is Flexible.
+- **Powerful** -- Keras provides industry-strength performance and scalability: so we can use ImageClassifier in the production
 
-## Keras & ImageSeeker 
+## Keras & ImageClassifier 
 
 Keras is the high-level API of TensorFlow 2: an approachable, highly-productive interface
 for solving machine learning problems, with a focus on modern deep learning. We can do so many tasks using Keras and image classification is one of them, but the issue is like we need to write many lines of code to implement an image classification solution.
 
-But in ImageSeeker you don’t need to write many lines of code for implementing an image classification solution. You don’t also have to worry about your data preparation. What you need to do is just have to define your data path & some of the parameters of the model yes, your work will be done!
+But in ImageClassifier you don’t need to write many lines of code for implementing an image classification solution. You don’t also have to worry about your data preparation. What you need to do is just have to define your data path & some of the parameters of the model yes, your work will be done!
 
 
 # Image Classification using Keras
@@ -231,113 +225,9 @@ Epoch 5/5
  pip install ImageSeeker
 ```
 
-If you done the installation then from your terminal just write **imgseeker** keyword it will automatically launch the UI on your local host.
-
-
-## Step-1:
-
-![Example](https://raw.githubusercontent.com/entbappy/Branching-tutorial/master/New%20folder%20(2)/1.png)
-
-  
-
-## Launching UI on local host:
-
-![Example](https://raw.githubusercontent.com/entbappy/Branching-tutorial/master/New%20folder%20(2)/2.png)
-
-
-Yes!! You have got 😀 Now if you scroll down, you will see how you can get start with ImageSeeker below
-
-## Step-2:
-**Click on GET STARTED**
-
- ![Example](https://raw.githubusercontent.com/entbappy/Branching-tutorial/master/New%20folder%20(2)/3.png) 
-
-
-After clicking on that you will get a form like that and you have to configure it for training 
-
-![Example](https://raw.githubusercontent.com/entbappy/Branching-tutorial/master/New%20folder%20(2)/4.png) 
-
-## Step-3:
-**Configure those parameters: Example**
-
-![Example](https://raw.githubusercontent.com/entbappy/Branching-tutorial/master/New%20folder%20(2)/7.png) 
-
-
-Now just hit **Start Trainig** your training will be started And you can see all the log from your terminal itself like that.
-
-![Example](https://raw.githubusercontent.com/entbappy/Branching-tutorial/master/New%20folder%20(2)/9.png) 
-
-
-Detected pretrain model!!
-
-Model has been saved following directory : Models\VGG16.h5
-Preparing model...
-
-Freezing all...
-
-Adding sigmoid...
-
-Model loaded!!
-
-Augmetation applied!
-
-Found 200 images belonging to 2 classes.
-
-Found 110 images belonging to 2 classes.
-
-Saving logs at Tensorboard/logs/fit\log_2021_09_09_02_24_11
-Epoch 1/5
-6/6 [==============================] - 35s 6s/step - loss: 6.3008 - accuracy: 0.5385 - val_loss: 1.5761 - val_accuracy: 0.5104
-Epoch 2/5
-
-6/6 [==============================] - 29s 5s/step - loss: 2.8433 - accuracy: 0.5109 - val_loss: 2.4668 - val_accuracy: 0.5312
-Epoch 3/5
-
-6/6 [==============================] - 29s 5s/step - loss: 2.3428 - accuracy: 0.4800 - val_loss: 0.8409 - val_accuracy: 0.5417
-Epoch 4/5
-
-6/6 [==============================] - 29s 5s/step - loss: 0.8796 - accuracy: 0.5927 - val_loss: 0.6251 - val_accuracy: 0.6667
-Epoch 5/5
-
-6/6 [==============================] - 29s 5s/step - loss: 0.6290 - accuracy: 0.6746 - val_loss: 0.5840 - val_accuracy: 0.7188
-Model saved at the following location : New_trained_model/newVGG16.h5
-
-
-## Step-4:
-**Prediction:**
-
-Awsome!! 😀😀 You have done the training. Now it's time for predicting. You see there is a button called **Predict**
-
-![Example](https://raw.githubusercontent.com/entbappy/Branching-tutorial/master/New%20folder%20(2)/6.png) 
-
-
-If you hit that button then you will get your prediction UI like that. Now you can upload images & start predicting😎
-
-![Example](https://raw.githubusercontent.com/entbappy/Branching-tutorial/master/New%20folder%20(2)/10.png) 
-
-
-### See the class label in your terminal
-
-Found 200 images belonging to 2 classes.
-
-Found 110 images belonging to 2 classes.
-
-{'cat': 0, 'dog': 1}
-
-
-# Congratulations !! 😀✌ You are done 😊
-
-Yes! that's how it is simple.
-
-
-
-
-
 ## Acknowledgements
 
  - [Keras](https://keras.io/)
- - [SUNNY BHAVEEN CHANDRA](https://www.linkedin.com/in/c17hawke/)
- - [Sourangshu Pal](https://www.linkedin.com/in/sourangshu-pal-0774b212a/)
  - [Python](https://docs.python.org/3/)
 
   
